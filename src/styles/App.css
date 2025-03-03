@@ -1,0 +1,11 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+  background: radial-gradient(circle, #400000, #000);
+  color: white;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
