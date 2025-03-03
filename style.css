@@ -1,0 +1,160 @@
+/* Import Google Font */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto Mono", monospace;
+}
+
+body {
+    background: linear-gradient(to right, #000, #8B0000); /* Black to Dark Red */
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    padding: 20px;
+}
+
+/* Card Container */
+.generator {
+    background-color: #222; /* Dark Background */
+    width: 300px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(255, 215, 0, 0.3); /* Gold Shadow */
+    text-align: center;
+    transition: 0.3s;
+    border: 2px solid #FFD700; /* Gold Border */
+}
+
+.generator:hover {
+    transform: scale(1.02);
+}
+
+/* Title */
+h1 {
+    font-size: 22px;
+    margin-bottom: 15px;
+    color: #FFD700; /* Gold */
+    text-transform: uppercase;
+}
+
+/* Password Display */
+.password {
+    display: flex;
+    align-items: center;
+    background: #444;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+.password input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+    padding: 5px;
+    outline: none;
+    color: #FFD700; /* Gold */
+}
+
+.password button {
+    background: #8B0000; /* Dark Red */
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 14px;
+    transition: 0.3s;
+}
+
+.password button:hover {
+    background: #FFD700; /* Gold */
+    color: #000;
+}
+
+/* Range Slider */
+.range {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.range input {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.range span {
+    background: #8B0000; /* Dark Red */
+    padding: 8px;
+    font-weight: bold;
+    border-radius: 6px;
+    color: #FFD700; /* Gold */
+}
+
+/* Checkbox Options */
+.options {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+
+.option {
+    display: flex;
+    align-items: center;
+    background: #444;
+    padding: 8px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: #FFD700; /* Gold */
+}
+
+.option:hover {
+    background: #8B0000; /* Dark Red */
+}
+
+/* Generate Button */
+.generate {
+    width: 100%;
+    background: #8B0000; /* Dark Red */
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.generate:hover {
+    background: #FFD700; /* Gold */
+    color: #000;
+}
+
+.password .copy {
+  background: #FFD700; /* Yellow */
+  color: #8B0000; /* Dark Red */
+  border: none;
+  padding: 6px 12px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 14px;
+  transition: 0.3s;
+  font-weight: bold;
+}
+
+.password .copy:hover {
+  background: #8B0000; /* Dark Red */
+  color: #FFD700; /* Yellow */
+}
